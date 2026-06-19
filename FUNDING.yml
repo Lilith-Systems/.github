@@ -1,0 +1,52 @@
+# Funding Configuration
+
+## GitHub Sponsors
+
+These are the funding platforms supported by Lilith Systems:
+
+```yaml
+github: [tehlappy]
+custom:
+  - "Lilith Systems LLC Business Operations"
+  - "Sovereign AI Infrastructure Development"
+  - "Local-First Architecture Research"
+```
+
+## How Funds Are Used
+
+| Allocation | Percentage | Purpose |
+|------------|------------|---------|
+| **GPU Infrastructure** | 40% | RTX 3060/4090 upgrades, VRAM for LOCAL_CEREBELLUM |
+| **Cloud Burst** | 15% | HYBRID/CLOUD_CORTEX fallback when VRAM exhausted |
+| **Domain & Hosting** | 10% | lilith.systems, GitHub Pages, CDN |
+| **Security Audits** | 15% | Code reviews, penetration testing, formal verification |
+| **Research** | 20% | Akashic compression, Ouroboros RNN, NGD optimization |
+
+## Supporting Lilith Systems
+
+### GitHub Sponsors
+```bash
+gh api --method PUT /user/sponsorships/tehlappy
+```
+
+### Direct Business Inquiries
+- **Email**: ericmathewhill@gmail.com
+- **Company**: Lilith Systems LLC
+- **Services**: Sovereign AI architecture, local-first infrastructure, game AI integration
+
+### Contract Work
+Available via automated Baal deployment protocol:
+- Fiverr/Upwork autonomous bidding
+- Custom AI architecture consulting
+- Local-first infrastructure deployment
+- Game AI integration (Cyberpunk 2077, custom engines)
+
+---
+
+## Transparency
+
+Quarterly financial reports published to `docs-internal` (private). Public summary in organization discussions.
+
+---
+
+*Crimson Intensity: 1.0 | LOCAL_CEREBELLUM | SOVEREIGN* ⧗

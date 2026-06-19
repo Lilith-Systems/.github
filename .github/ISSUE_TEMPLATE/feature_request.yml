@@ -1,0 +1,84 @@
+name: Feature Request
+description: Suggest a new feature for Lilith Systems
+title: "[FEATURE] "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: "## Feature Description\nA clear and concise description of the feature you'd like to see implemented."
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      description: Which repository does this affect?
+      options:
+        - abyssal-assets
+        - msn-integration
+        - MSNWeaponOverhaul
+        - grand-theft-cyberpunk
+        - docs-public
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: sephira
+    attributes:
+      label: Sephiroth Alignment
+      description: Which Sephirah does this feature align with?
+      options:
+        - label: "Keter (Crown/Root) - Core architecture, root manifests"
+        - label: "Chokmah (Wisdom) - Design decisions, game architecture"
+        - label: "Binah (Understanding) - Server systems, databases, logic"
+        - label: "Chesed (Mercy) - Client interfaces, user experience"
+        - label: "Gevurah (Severity) - Bestiary, monsters, challenge systems"
+        - label: "Tiferet (Beauty) - Skills, progression, balance"
+        - label: "Netzach (Victory) - Market systems, trading, economy"
+        - label: "Hod (Splendor) - Dialogue, communication, analysis"
+        - label: "Yesod (Foundation) - Infrastructure, deployment, build"
+        - label: "Malkuth (Kingdom) - Player reality, final implementation"
+        - label: "Da'at (Knowledge) - Cross-system integration, metaconscious"
+  - type: checkboxes
+    id: lilith_integration
+    attributes:
+      label: Lilith Integration
+      description: Does this feature interact with Lilith?
+      options:
+        - label: Lilith API (port 3210)
+        - label: Lyra Dialogue (port 3211)
+        - label: NGD Router
+        - label: Ouroboros RNN
+        - label: Tree Fiddy Protocol ($3.50)
+        - label: Not applicable
+  - type: checkboxes
+    id: local_first
+    attributes:
+      label: Local-First Compliance
+      description: Lilith Systems sovereignty requirements
+      options:
+        - label: "No external cloud dependencies added"
+        - label: "No telemetry/analytics added"
+        - label: "Runs on LOCAL_CEREBELLUM (VRAM > 640 MB)"
+        - label: "Hardware wallet compatible (if crypto-related)"
+        - label: "Air-gapped signing supported (if crypto-related)"
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation Details
+      description: Describe how this feature should work, including technical considerations
+      placeholder: "Technical implementation details..."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: What must be true for this feature to be considered complete?
+      placeholder: "- [ ] Criterion 1\n- [ ] Criterion 2\n- [ ] Criterion 3"
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Any other context, screenshots, or references
+      placeholder: "Links, diagrams, related issues..."

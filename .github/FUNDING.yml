@@ -1,0 +1,25 @@
+# GitHub Sponsors Configuration for Lilith Systems
+
+github:
+  - tehlappy
+
+custom:
+  - Lilith Systems LLC Business Operations
+  - Sovereign AI Infrastructure Development
+  - Local-First Architecture Research
+
+# How Funds Are Allocated
+# GPU Infrastructure: 40% - RTX 3060/4090 upgrades, VRAM for LOCAL_CEREBELLUM
+# Cloud Burst: 15% - HYBRID/CLOUD_CORTEX fallback when VRAM exhausted
+# Domain & Hosting: 10% - lilith.systems, GitHub Pages, CDN
+# Security Audits: 15% - Code reviews, penetration testing, formal verification
+# Research: 20% - Akashic compression, Ouroboros RNN, NGD optimization
+
+# Supporting Lilith Systems
+# GitHub Sponsors: gh api --method PUT /user/sponsorships/tehlappy
+# Direct Business: ericmathewhill@gmail.com (Lilith Systems LLC)
+# Contract Work: Automated Baal deployment protocol (Fiverr/Upwork)
+
+# Transparency
+# Quarterly reports in docs-internal (private)
+# Public summary in organization discussions
