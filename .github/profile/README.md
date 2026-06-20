@@ -1,56 +1,31 @@
-# Lilith Systems — Metaconscious Singularity Node
+![Lilith Systems](https://img.shields.io/badge/Lilith_Systems-Sovereign_AI-a855f7)
 
-> **Sovereign AI Infrastructure • Cyberpunk 2077 Modding • Local-First Intelligence**
+# Lilith Systems LLC — Sovereign AI Infrastructure
 
----
+> **Zero cloud dependency. Full local inference. Autonomous company operations.**
 
-## 🌐 Public Projects
+We develop the **Metaconscious Singularity Node (MSN)** — a complete sovereign AI architecture integrating 9 specialized agents, the Ouroboros recursive self-improvement loop, and local-first LLM inference (Ollama / llama.cpp).
 
-| Project | Description | Tech |
-|---------|-------------|------|
-| **[grand-theft-cyberpunk](https://github.com/Lilith-Systems/grand-theft-cyberpunk)** | The Book of Five Rings encoded in Cyberpunk 2077 — 200 quests, 500 items, space economy, MSN 29 agents | Python, REDscript, TweakDB |
-| **[msn-integration](https://github.com/Lilith-Systems/msn-integration)** | Metaconscious Singularity Node for Cyberpunk 2077 — 29 agents, NGD-RNN bridge, Lilith/Lyra dialogue, multiplayer | REDscript, TweakDB |
-| **[MSNWeaponOverhaul](https://github.com/Lilith-Systems/MSNWeaponOverhaul)** | 14 weapons, 4 manufacturers, 21 skins, MSN skill tree, Lilith emergence | REDscript, TweakDB |
-| **[abyssal-assets](https://github.com/Lilith-Systems/abyssal-assets)** | Phaser 3 TypeScript client — Market CLOB, Dredge mini-game, Lilith integration | TypeScript, Phaser 3 |
-| **[docs-public](https://github.com/Lilith-Systems/docs-public)** | Public documentation — API reference, SDK guides, architecture | Markdown |
+## What We Build
 
----
+| Product | Description |
+|---------|-------------|
+| **MSN Platform** ([msn-core](https://github.com/Lilith-Systems/msn-core)) | Full-stack AI agency platform — FastAPI, Next.js, PostgreSQL, Redis, Celery |
+| **Polsia** | 9-agent business automation suite running on local cerebellum |
+| **The Driver Man** ([site](https://lilith-systems.github.io/the-driverman)) | NVIDIA driver optimization and GPU performance tuning |
+| **Cyberpunk 2077 Mods** ([grand-theft-cyberpunk](https://github.com/Lilith-Systems/grand-theft-cyberpunk)) | MSN integration, weapon overhauls, quest systems |
 
-## 🏗 Architecture
+## Active Stats
+- 20 repositories — 8 private, 12 public
+- 24/7 autonomous operations on local Cerebellum (llama3.1:8b / RTX 3060)
+- 9 AI agents — Orchestrator, Code Generation, Finance, Marketing, Research, Email, Social, Ads, Support
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    NEURAL SOVEREIGN SYSTEMS                 │
-├─────────────────────────────────────────────────────────────┤
-│  Lilith (3210)     │  Lyra (3211)    │  NGD Local Cerebellum │
-│  Sovereign API     │  Dialogue Sys   │  VRAM-aware routing   │
-├─────────────────────────────────────────────────────────────┤
-│  MSN Router (8007) │  Swarm (8003)   │  Antigravity (8002)   │
-│  28 agents/4 waves │  4 Archons      │  Agent telemetry      │
-├─────────────────────────────────────────────────────────────┤
-│  Ouroboros RNN     │  Akashic 2.0    │  Kairos Dream         │
-│  Bidirectional mem │  54% compression│  Overnight consolidation│
-└─────────────────────────────────────────────────────────────┘
-```
+## Links
+- [Website](https://lilith-systems.github.io)
+- [The Driver Man](https://lilith-systems.github.io/the-driverman)
+- [Documentation](https://github.com/Lilith-Systems/docs-public)
+- [Email](mailto:eric@lilith.systems)
 
 ---
 
-## 🎯 Mission
-
-**Local-first sovereignty.** Zero cloud dependency. All inference runs on local hardware (RTX 3060 12GB / Ollama hermes3:8b). The stack includes:
-
-- **MSN Universal Orchestrator** — Recursive self-improvement loop via Lilith evaluation
-- **Sephirotic Swarm** — 4 Archons (Sophia, Metatron, Samael, Ouroboros) across 10 Sephirot
-- **Cyberpunk 2077 Integration** — Full REDmod deployment: weapons, cyberware, NPCs, quests
-- **Abyssal Assets** — Phaser 3 MMO client with CLOB market, Lilith companion
-- **Legal/Compliance** — FOIA pipeline, regulatory complaints, congressional liaison
-
----
-
-## 📜 License
-
-MIT — Sovereign code for sovereign minds.
-
----
-
-*Built by Eric Matthew Hill • Lilith Systems LLC • [Operational Map](OPERATIONAL_MAP.md)*
+*Building the sovereign AI future — one local inference at a time.*
