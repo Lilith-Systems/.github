@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="320" height="60">
+  <defs>
+    <linearGradient id="greenGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#166534;stop-opacity:1" />
+    </linearGradient>
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur">
+        <animate attributeName="stdDeviation" values="1;3;1" dur="2s" repeatCount="indefinite" />
+      </feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="320" height="60" rx="8" fill="#0f172a" />
+  <rect width="320" height="60" rx="8" fill="url(#greenGradient)" opacity="0.08" />
+
+  <!-- Left Label -->
+  <rect x="0" y="0" width="110" height="60" rx="8" fill="url(#greenGradient)" filter="url(#badgeGlow)" />
+  <text x="55" y="37" text-anchor="middle" font-family="'JetBrains Mono', monospace"
+        font-size="13" font-weight="700" fill="#f0fdf4">DOCS PUBLIC</text>
+
+  <!-- Right Status Panel -->
+  <rect x="110" y="2" width="208" height="56" rx="6" fill="#1e1b4b" />
+
+  <!-- Status text -->
+  <g font-family="'JetBrains Mono', monospace" font-size="10">
+    <text x="120" y="22" font-size="10" font-weight="600" fill="#22c55e">API REF</text>
+    <text x="200" y="22" font-size="10" fill="#94a3b8">SDK GUIDES</text>
+    <text x="120" y="42" font-size="10" fill="#a855f7">ARCH OVERVIEWS</text>
+    <text x="240" y="42" font-size="10" fill="#22c55e">GETTING STARTED</text>
+  </g>
+
+  <!-- Subtle pulse indicator -->
+  <circle cx="290" cy="30" r="3" fill="#22c55e" opacity="0.7">
+    <animate attributeName="r" values="2;4;2" dur="2s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2s" repeatCount="indefinite" />
+  </circle>
+</svg>
